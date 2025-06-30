@@ -18,8 +18,8 @@ The dataset used in this project is `CreditCard.csv`, which contains a large num
 
 [cite_start]The dataset exhibits a perfectly balanced class distribution, with an equal number of non-fraudulent and fraudulent transactions. [cite: 3, 4]
 
-* [cite_start]**Non-Fraud (0)**: 284,315 (50.00%) [cite: 2]
-* [cite_start]**Fraud (1)**: 284,315 (50.00%) [cite: 4]
+* **Non-Fraud (0)**: 284,315 (50.00%)
+* **Fraud (1)**: 284,315 (50.00%)
 
 ## Exploratory Data Analysis (EDA)
 
@@ -29,10 +29,10 @@ EDA was performed to understand the characteristics of the dataset, identify imp
 
 The distribution of transaction amounts for both non-fraudulent and fraudulent transactions shows distinct patterns.
 
-![Transaction Amount Distribution](Images/transaction_amount_distribution.png)
+![Transaction Amount Distribution](https://github.com/nsk20/Fraud-Detection/blob/e5dbb4ec0611a8a7ed4d19ed8a945853fdc22900/Visualization/1.jpg)
 
-* [cite_start]**Non-Fraudulent Transactions**: Mean amount is 12026.31, median is 11996.90, and standard deviation is 6929.50. [cite: 7]
-* [cite_start]**Fraudulent Transactions**: Mean amount is 12057.60, median is 12062.45, and standard deviation is 6909.75. [cite: 7]
+* **Non-Fraudulent Transactions**: Mean amount is 12026.31, median is 11996.90, and standard deviation is 6929.50. [cite: 7]
+* **Fraudulent Transactions**: Mean amount is 12057.60, median is 12062.45, and standard deviation is 6909.75. [cite: 7]
 
 ### Feature Importance Analysis
 
