@@ -121,39 +121,10 @@ The models were evaluated based on Accuracy, AUC Score, Precision, Recall, and F
 
 #### Naive Bayes
 * **Accuracy**: 0.93
-* **AUC Score**: Not explicitly stated in the provided text, but it is the lowest from the ROC curves.
+* **AUC Score**: 0.9850
 * **Precision (Fraud)**: 0.99
 * **Recall (Fraud)**: 0.88
 * **Specificity (Non-Fraud Accuracy)**: 0.989
-
-## Detailed Confusion Matrices
-
-Confusion matrices provide a detailed breakdown of true positives, true negatives, false positives, and false negatives for each model.
-
-![Confusion Matrices](Images/confusion_matrices.png)
-
-## Model Evaluation & Comparison
-
-### Feature Importance Comparison (Tree-based Models)
-
-![Random Forest Top 10 Features](Images/rf_feature_importance.png)
-![Gradient Boosting Top 10 Features](Images/gb_feature_importance.png)
-
-### Model Performance Comparison (Accuracy and AUC Score)
-
-![Model Performance Comparison](Images/model_performance_comparison.png)
-
-### ROC Curves Comparison
-
-![ROC Curves Comparison](Images/roc_curves_comparison.png)
-
-### Model Ranking by AUC Score
-
-![Model Ranking by AUC Score](Images/model_ranking_auc.png)
-
-### Performance Metrics Heatmap
-
-![Performance Metrics Heatmap](Images/performance_metrics_heatmap.png)
 
 ## Summary & Insights
 
@@ -173,32 +144,3 @@ Confusion matrices provide a detailed breakdown of true positives, true negative
     * Safest Transaction: Medium (49.2% fraud rate)
     * Riskiest Transaction: Very_Large (50.1% fraud rate)
 
-## Setup and Installation
-
-To run this project, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/fraud-detection.git](https://github.com/yourusername/fraud-detection.git)
-    cd fraud-detection
-    ```
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn
-    ```
-
-4.  **Place the dataset:**
-    Ensure `CreditCard.csv` is in the root directory of the project.
-
-5.  **Run the Jupyter Notebook:**
-    ```bash
-    jupyter notebook "Fraud Detection.ipynb"
-    ```
-    Alternatively, you can open and run the notebook in Google Colab (as indicated by the original source).
